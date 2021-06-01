@@ -61,6 +61,9 @@ function or(value){
 
 //and function
 function and(){
+    if (true && true){
+        return
+    }
     /* should return a boolean when passed two boolean values
 should return "world" when passed the inputs "hello" and "world" in that order
 should return false when passed true and false as the inputs
