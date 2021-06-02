@@ -18,18 +18,6 @@
  * concat
  */
 
-
-//and function NO
-function isBoolean(input){
-    /* should return a boolean when passed two boolean values
-should return "world" when passed the inputs "hello" and "world" in that order
-should return false when passed true and false as the inputs
-should be a defined function
-should return true when passed with true and true as the inputs
-should return false when passed false and false as inputs*/
-
-}
-
 //******** ******** ******** FINISHED ******** ******** ********
 
 // isTrue function DONE
@@ -56,7 +44,7 @@ function concat(value1, value2){
 
 //isEven function DONE
 function isEven(value){
-    var value_A = (value % 2) === 0;
+    var value_A = ((value % 2) === 0);
     return value_A;
 }
 
@@ -73,4 +61,9 @@ function not(value){
 //isIdentical function DONE
 function isIdentical(par1, par2){
     return par1 === par2;
+}
+
+//and function NO
+function and(x_1, x_2){
+    return x_1 && x_2;
 }
