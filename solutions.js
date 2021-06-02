@@ -31,6 +31,7 @@ function isFalse(value){
 //addOne function DONE
 function addOne(value){
     return Number(value) + 1;
+    // return ++value;
 }
 //isEqual function DONE
 function isEqual(value1, value2){
@@ -40,12 +41,17 @@ function isEqual(value1, value2){
 function concat(value1, value2){
     var value = value1.toString() + value2.toString();
     return value; //assisted
+    //return(value1.toString() + value2.toString());
+    //return "" + str1 + str2;
 }
 
 //isEven function DONE
 function isEven(value){
-    var value_A = ((value % 2) === 0);
-    return value_A;
+    //var value_A = ((value % 2) === 0);
+    //return value_A;
+    // if (value === false)
+        //return value;
+    return parseFloat((value%2) === 0);
 }
 
 //or function DONE
