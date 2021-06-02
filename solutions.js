@@ -17,26 +17,10 @@
  * and
  * concat
  */
-// not function
-function not(value){
-    var nott = "";
-    /* The value passed as the first parameter is converted to a boolean value, if necessary. If the value is omitted
-    or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has an initial value of false. All
-     other values, including any object, an empty array ([]), or the string "false", create an object with an initial
-      value of true.
-    */
-}
 
-
-
-//or function DONE
-function or(opt1, opt2){
-    return opt1 || opt2;
-}
 
 //and function NO
 function isBoolean(input){
-    return typeof input == 'boolean';
     /* should return a boolean when passed two boolean values
 should return "world" when passed the inputs "hello" and "world" in that order
 should return false when passed true and false as the inputs
@@ -48,8 +32,10 @@ should return false when passed false and false as inputs*/
 
 //isIdentical function
 function isIdentical(){
-
 }
+
+//******** ******** ******** FINISHED ******** ******** ********
+
 // isTrue function DONE
 function isTrue(value){
     return value === true;
@@ -74,7 +60,16 @@ function concat(value1, value2){
 
 //isEven function DONE
 function isEven(value){
-    //value = value % 2;
-    var value_A = value % 2 === 0;
+    var value_A = (value % 2) === 0;
     return value_A;
+}
+
+//or function DONE
+function or(opt1, opt2){
+    return opt1 || opt2;
+}
+
+// not function
+function not(value){
+    return !value;
 }
