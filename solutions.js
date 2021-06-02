@@ -27,17 +27,11 @@ function not(value){
     */
 }
 
-//isEven function
-function isEven(value){
-    //value = value % 2;
-    return (value % 2 == true);
-}
 
-//or function
-function or(value){
-    if (value = true || false){
-        return true;
-    }
+
+//or function DONE
+function or(opt1, opt2){
+    return opt1 || opt2;
 }
 
 //and function NO
@@ -70,10 +64,17 @@ function addOne(value){
 }
 //isEqual function DONE
 function isEqual(value1, value2){
-    return value1==value2
+    return value1 == value2;
 }
 //concat function DONE
 function concat(value1, value2){
     var value = value1.toString() + value2.toString();
     return value; //assisted
+}
+
+//isEven function DONE
+function isEven(value){
+    //value = value % 2;
+    var value_A = value % 2 === 0;
+    return value_A;
 }
