@@ -19,8 +19,12 @@
  */
 // not function
 function not(value){
-    switch
-    return isBoolean(!value);
+    var nott = "";
+    /* The value passed as the first parameter is converted to a boolean value, if necessary. If the value is omitted
+    or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has an initial value of false. All
+     other values, including any object, an empty array ([]), or the string "false", create an object with an initial
+      value of true.
+    */
 }
 
 //isEven function
@@ -47,16 +51,6 @@ should return true when passed with true and true as the inputs
 should return false when passed false and false as inputs*/
 
 }
-//concat function
-function concat(){
-    /* should return "helloworld" when passed "hello" and "world" as the two inputs.
-should return a string when passed to strings
-should return "42" when passed the number 4 and 2, treating each input as a string
-should return "truetrue" when passed true and true
-should return "Codeup" when passed "Code" and "up" as the two inputs
-should be a defined function*/
-
-}
 
 //isIdentical function
 function isIdentical(){
@@ -77,4 +71,9 @@ function addOne(value){
 //isEqual function DONE
 function isEqual(value1, value2){
     return value1==value2
+}
+//concat function DONE
+function concat(value1, value2){
+    var value = value1.toString() + value2.toString();
+    return value; //assisted
 }
