@@ -30,10 +30,6 @@ should return false when passed false and false as inputs*/
 
 }
 
-//isIdentical function
-function isIdentical(){
-}
-
 //******** ******** ******** FINISHED ******** ******** ********
 
 // isTrue function DONE
@@ -72,4 +68,9 @@ function or(opt1, opt2){
 // not function
 function not(value){
     return !value;
+}
+
+//isIdentical function DONE
+function isIdentical(par1, par2){
+    return par1 === par2;
 }
