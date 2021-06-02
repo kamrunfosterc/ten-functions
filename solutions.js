@@ -47,11 +47,16 @@ function concat(value1, value2){
 
 //isEven function DONE
 function isEven(value){
+    var a_val = ((value % 2) === 0);
+    if (value === false){
+        return false;
+    }
+    return a_val;
     //var value_A = ((value % 2) === 0);
     //return value_A;
     // if (value === false)
         //return value;
-    return parseFloat((value%2) === 0);
+    //return parseFloat((value%2) === 0); doesn't address boolean prob
 }
 
 //or function DONE
